@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7F75A7263AE5510099D084 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F75A6263AE5510099D084 /* OrderViewController.swift */; };
+		5F7F75A9263AE8CA0099D084 /* OdViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F75A8263AE8CA0099D084 /* OdViewCell.swift */; };
+		5F7F75AB263AF6BF0099D084 /* AccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F75AA263AF6BF0099D084 /* AccViewController.swift */; };
+		5F7F75AD263AFFB20099D084 /* AccViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F75AC263AFFB20099D084 /* AccViewCell.swift */; };
 		5F80D66925F3934200A9396A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D66825F3934200A9396A /* AppDelegate.swift */; };
 		5F80D66B25F3934200A9396A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D66A25F3934200A9396A /* SceneDelegate.swift */; };
 		5F80D66D25F3934200A9396A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D66C25F3934200A9396A /* ViewController.swift */; };
 		5F80D67025F3934200A9396A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D66E25F3934200A9396A /* Main.storyboard */; };
 		5F80D67225F3934400A9396A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D67125F3934400A9396A /* Assets.xcassets */; };
 		5F80D67525F3934400A9396A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D67325F3934400A9396A /* LaunchScreen.storyboard */; };
+		5F80D67D25F39E5700A9396A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D67C25F39E5700A9396A /* LoginViewController.swift */; };
+		5F80D67F25F39E7400A9396A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D67E25F39E7400A9396A /* SignUpViewController.swift */; };
+		5F80D68125F39E8300A9396A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D68025F39E8300A9396A /* HomeViewController.swift */; };
+		5F80D68925F4B2D400A9396A /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D68825F4B2D400A9396A /* Users.swift */; };
+		5F80D68C25F4F14600A9396A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5F80D68B25F4F14600A9396A /* SDWebImageSwiftUI */; };
+		5F80D69625F572D500A9396A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D69525F572D500A9396A /* TableViewCell.swift */; };
+		5F80D69A25F57E2000A9396A /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D69925F57E2000A9396A /* Tab.swift */; };
+		5F80D6A025F6499600A9396A /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D69F25F6499600A9396A /* ItemViewController.swift */; };
+		5F80D6A225F6842300A9396A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D6A125F6842300A9396A /* CartViewController.swift */; };
+		5FFA3EC52638B33C00BE417A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FFA3EC42638B33C00BE417A /* GoogleService-Info.plist */; };
+		5FFDF46D26388DB4009DC5CE /* ForgetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFDF46C26388DB4009DC5CE /* ForgetPassViewController.swift */; };
+		EB41803B13BDF2279B16D4EC /* Pods_CafeNibm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33717A575DC1D7F42A6B279 /* Pods_CafeNibm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		562DF10FE811BFF3F77417C4 /* Pods-CafeNibm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNibm.release.xcconfig"; path = "Target Support Files/Pods-CafeNibm/Pods-CafeNibm.release.xcconfig"; sourceTree = "<group>"; };
+		5F7F75A6263AE5510099D084 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		5F7F75A8263AE8CA0099D084 /* OdViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdViewCell.swift; sourceTree = "<group>"; };
+		5F7F75AA263AF6BF0099D084 /* AccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccViewController.swift; sourceTree = "<group>"; };
+		5F7F75AC263AFFB20099D084 /* AccViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccViewCell.swift; sourceTree = "<group>"; };
 		5F80D66525F3934200A9396A /* CafeNibm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNibm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F80D66825F3934200A9396A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F80D66A25F3934200A9396A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,18 @@
 		5F80D67125F3934400A9396A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F80D67425F3934400A9396A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F80D67625F3934400A9396A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F80D67C25F39E5700A9396A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F80D67E25F39E7400A9396A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5F80D68025F39E8300A9396A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F80D68825F4B2D400A9396A /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		5F80D69525F572D500A9396A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = CafeNibm/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		5F80D69925F57E2000A9396A /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		5F80D69F25F6499600A9396A /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		5F80D6A125F6842300A9396A /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5FFA3EC42638B33C00BE417A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FFDF46C26388DB4009DC5CE /* ForgetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassViewController.swift; sourceTree = "<group>"; };
+		A3E0845AA8C20F65D5875F97 /* Pods-CafeNibm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNibm.debug.xcconfig"; path = "Target Support Files/Pods-CafeNibm/Pods-CafeNibm.debug.xcconfig"; sourceTree = "<group>"; };
+		C33717A575DC1D7F42A6B279 /* Pods_CafeNibm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeNibm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F80D68C25F4F14600A9396A /* SDWebImageSwiftUI in Frameworks */,
+				EB41803B13BDF2279B16D4EC /* Pods_CafeNibm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C9570B4F2340B15A5649E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33717A575DC1D7F42A6B279 /* Pods_CafeNibm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A69DE6F83C1B452A316DA68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E0845AA8C20F65D5875F97 /* Pods-CafeNibm.debug.xcconfig */,
+				562DF10FE811BFF3F77417C4 /* Pods-CafeNibm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5F80D65C25F3934100A9396A = {
 			isa = PBXGroup;
 			children = (
 				5F80D66725F3934200A9396A /* CafeNibm */,
 				5F80D66625F3934200A9396A /* Products */,
+				0A69DE6F83C1B452A316DA68 /* Pods */,
+				01C9570B4F2340B15A5649E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,37 @@
 		5F80D66725F3934200A9396A /* CafeNibm */ = {
 			isa = PBXGroup;
 			children = (
+				5F80D68225F39ED000A9396A /* View Controllers */,
 				5F80D66825F3934200A9396A /* AppDelegate.swift */,
 				5F80D66A25F3934200A9396A /* SceneDelegate.swift */,
 				5F80D66C25F3934200A9396A /* ViewController.swift */,
 				5F80D66E25F3934200A9396A /* Main.storyboard */,
 				5F80D67125F3934400A9396A /* Assets.xcassets */,
 				5F80D67325F3934400A9396A /* LaunchScreen.storyboard */,
+				5FFA3EC42638B33C00BE417A /* GoogleService-Info.plist */,
 				5F80D67625F3934400A9396A /* Info.plist */,
+				5F80D68825F4B2D400A9396A /* Users.swift */,
+				5F80D69925F57E2000A9396A /* Tab.swift */,
 			);
 			path = CafeNibm;
+			sourceTree = "<group>";
+		};
+		5F80D68225F39ED000A9396A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F80D67C25F39E5700A9396A /* LoginViewController.swift */,
+				5F80D67E25F39E7400A9396A /* SignUpViewController.swift */,
+				5F80D68025F39E8300A9396A /* HomeViewController.swift */,
+				5F80D69525F572D500A9396A /* TableViewCell.swift */,
+				5F80D69F25F6499600A9396A /* ItemViewController.swift */,
+				5F80D6A125F6842300A9396A /* CartViewController.swift */,
+				5FFDF46C26388DB4009DC5CE /* ForgetPassViewController.swift */,
+				5F7F75A6263AE5510099D084 /* OrderViewController.swift */,
+				5F7F75A8263AE8CA0099D084 /* OdViewCell.swift */,
+				5F7F75AA263AF6BF0099D084 /* AccViewController.swift */,
+				5F7F75AC263AFFB20099D084 /* AccViewCell.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +150,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F80D67925F3934400A9396A /* Build configuration list for PBXNativeTarget "CafeNibm" */;
 			buildPhases = (
+				E222D7BE01841106D7E29349 /* [CP] Check Pods Manifest.lock */,
 				5F80D66125F3934200A9396A /* Sources */,
 				5F80D66225F3934200A9396A /* Frameworks */,
 				5F80D66325F3934200A9396A /* Resources */,
+				2DE2179EA08E5D8660761D96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CafeNibm;
+			packageProductDependencies = (
+				5F80D68B25F4F14600A9396A /* SDWebImageSwiftUI */,
+			);
 			productName = CafeNibm;
 			productReference = 5F80D66525F3934200A9396A /* CafeNibm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 5F80D65C25F3934100A9396A;
+			packageReferences = (
+				5F80D68A25F4F14600A9396A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 5F80D66625F3934200A9396A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F80D67525F3934400A9396A /* LaunchScreen.storyboard in Resources */,
+				5FFA3EC52638B33C00BE417A /* GoogleService-Info.plist in Resources */,
 				5F80D67225F3934400A9396A /* Assets.xcassets in Resources */,
 				5F80D67025F3934200A9396A /* Main.storyboard in Resources */,
 			);
@@ -133,14 +218,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE2179EA08E5D8660761D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNibm/Pods-CafeNibm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNibm/Pods-CafeNibm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CafeNibm/Pods-CafeNibm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E222D7BE01841106D7E29349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CafeNibm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F80D66125F3934200A9396A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F80D67D25F39E5700A9396A /* LoginViewController.swift in Sources */,
 				5F80D66D25F3934200A9396A /* ViewController.swift in Sources */,
+				5F7F75A7263AE5510099D084 /* OrderViewController.swift in Sources */,
 				5F80D66925F3934200A9396A /* AppDelegate.swift in Sources */,
+				5F80D69625F572D500A9396A /* TableViewCell.swift in Sources */,
 				5F80D66B25F3934200A9396A /* SceneDelegate.swift in Sources */,
+				5F80D67F25F39E7400A9396A /* SignUpViewController.swift in Sources */,
+				5F7F75AB263AF6BF0099D084 /* AccViewController.swift in Sources */,
+				5F80D69A25F57E2000A9396A /* Tab.swift in Sources */,
+				5F80D6A225F6842300A9396A /* CartViewController.swift in Sources */,
+				5F7F75A9263AE8CA0099D084 /* OdViewCell.swift in Sources */,
+				5F80D6A025F6499600A9396A /* ItemViewController.swift in Sources */,
+				5F80D68125F39E8300A9396A /* HomeViewController.swift in Sources */,
+				5FFDF46D26388DB4009DC5CE /* ForgetPassViewController.swift in Sources */,
+				5F7F75AD263AFFB20099D084 /* AccViewCell.swift in Sources */,
+				5F80D68925F4B2D400A9396A /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		5F80D67A25F3934400A9396A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E0845AA8C20F65D5875F97 /* Pods-CafeNibm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +440,7 @@
 		};
 		5F80D67B25F3934400A9396A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562DF10FE811BFF3F77417C4 /* Pods-CafeNibm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +478,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F80D68A25F4F14600A9396A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F80D68B25F4F14600A9396A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F80D68A25F4F14600A9396A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5F80D65D25F3934100A9396A /* Project object */;
 }
